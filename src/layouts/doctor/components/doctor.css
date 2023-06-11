@@ -1,0 +1,129 @@
+.doc {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .caard-container {
+    display:flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  }
+  
+  .caard {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+  width: 300px;
+  }
+  
+  .caard {
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 15%);
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    min-height: 497px;
+  }
+  
+  .caard-image {
+  position: relative;
+  }
+  
+  .caard-image img {
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  }
+  
+  .like-button {
+  background: none;
+  border: none;
+  /* color: #999; */
+  color: #f00;
+  cursor: pointer;
+  font-size: 32px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  }
+
+  .liked .like-button {
+    color: rgb(154, 5, 5);
+  }
+  
+  .caard-details {
+  padding: 20px;
+  }
+  
+  .caard-details h2 {
+  font-size: 24px;
+  margin: 0;
+  }
+  
+  .caard-rating {
+  color: #f1c40f;
+  font-size: 16px;
+  margin-bottom: 10px;
+  }
+  
+  .rating-star {
+  display: inline-block;
+  margin-right: 5px;
+  }
+  
+  .caard-address {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+  }
+  
+  .gmap-symbol {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 5px;
+  }
+  
+  .caard-specialization {
+  margin-top: 20px;
+  }
+  
+  .caard-specialization h3 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+  }
+  
+  .caard-specialization ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .caard-specialization li {
+  font-size: 16px;
+  line-height: 1.5;
+  }
+  
+  .book-docointment-button {
+  background: linear-gradient(195deg, #66BB6A, #43A047);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  }
+  
+  .book-docointment-button:hover {
+  background: linear-gradient(195deg, #49a3f1, #1A73E8);
+  }
+  
